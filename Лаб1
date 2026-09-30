@@ -1,0 +1,17 @@
+text
+# Зависимости и пакеты
+node_modules/
+dist/
+build/
+
+# Логи и кэш
+*.log
+.eslintcache
+
+# Конфиденциальные данные (пароли к БД)
+.env
+.env.local
+
+# Системные файлы
+.DS_Store
+Thumbs.db
