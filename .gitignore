@@ -1,21 +1,37 @@
-# Зависимости (Node.js / React)
+# Node.js
 node_modules/
 npm-debug.log*
 yarn-debug.log*
-dist/
-build/
+yarn-error.log*
+pnpm-debug.log*
 
-# Логи и кэш разработки
-*.log
-.eslintcache
-.parcel-cache
-
-# Конфиденциальные файлы (ключи API, доступы к БД)
+# Переменные окружения и секреты
 .env
 .env.local
-.env.development.local
+.env.*.local
 
-# Системные файлы операционных систем
+# Логи
+*.log
+logs/
+npm-debug.log*
+
+# Сборки и кэш
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Редакторы и IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Системные файлы
 .DS_Store
 Thumbs.db
-.vscode/
+desktop.ini
+
+# Тестовое покрытие
+coverage/
+.nyc_output/
